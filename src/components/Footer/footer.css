@@ -1,0 +1,28 @@
+.footer{
+    width: 100vw;
+    height: 4rem;
+    background-color: rgb(40 , 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+ .footer span{
+    
+    margin: 0 20px;
+    font-size: 20px;
+}
+.icon{
+    color: rgb(222, 146, 17);
+    font-size: 25px;
+   
+}
+@media screen and (max-width: 480px) {
+    .footer{
+        display: block;
+    }
+}
